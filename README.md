@@ -25,7 +25,7 @@ pyhton3 hashname.py -F [folder]
 Rename all files in a directory recursively:
 
 ```
-pyhton3 hashname.py -R [folder]
+pyhton3 hashname.py -rF [folder]
 ```
 
 Also, you can use the `-a` option to specify the algorithm to use. By default, it uses `sha256`. There are other options like `sha1` and `md5`.
