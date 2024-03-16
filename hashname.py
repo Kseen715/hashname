@@ -46,7 +46,7 @@ def rename_file(file, new_name):
         os.remove(file)
         if not is_quiet:
             print('[INFO] File '
-                  + colorama.Fore.LIGHTRED_EX + '"' + new_name + '"'
+                  + colorama.Fore.LIGHTRED_EX + '"' + file + '"'
                   + colorama.Fore.RESET
                   + ' deleted'
                   )
